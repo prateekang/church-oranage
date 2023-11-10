@@ -12,7 +12,13 @@ while(have_posts()):
     the_author_meta('description');
     the_date();
     the_time();
-
 endwhile;
+
 ?>
+<?php function greet(){
+    echo "<h1> this is my first document</h1>";
+}
+greet();
+?>
+
     <?php get_footer(); ?>
