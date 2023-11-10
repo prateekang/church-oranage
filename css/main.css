@@ -27,9 +27,191 @@
     text-align: center;
     font-size: 45px;
 }
-
+.content-image{
+    display: block;
+        width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .content-paragraph h2{
     font-size: 20px;
     margin-top: 12px;
     text-align: center;
+}
+content-line {
+    width: 800px;
+    margin-top: 20px;
+    background-color: black;
+    padding: 3px;
+    margin-left: 300px;
+}
+
+.content-entry {
+    margin-left: 300px;
+    letter-spacing: 4px;
+}
+
+.content-user img {
+    width: 100px;
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.content-user {
+    display: flex;
+}
+
+.user-name h2,
+.user-name p,
+.user-name a {
+    margin-top: 20px;
+    margin-left: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.user-name a:hover,
+.user-name h2:hover {
+    text-decoration: underline;
+    color: #427D9D;
+}
+
+.user-name i {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+.content-btn h2 {
+    margin-top: 150px;
+    margin-left: 300px;
+}
+
+.content-icon p {
+    display: inline-block;
+}
+
+.content-media {
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.content-media i {
+    margin-top: 20px;
+}
+
+.content-comment {
+    margin-top: 40px;
+}
+
+#content-area {
+    width: 500px;
+    height: 500px;
+    margin-top: 12px;
+}
+
+input[type=text] {
+    width: 500px;
+    padding: 6px;
+}
+
+.content-text {
+    margin-top: 20px;
+}
+
+.content-button {
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    font-size: 20px;
+}
+
+.content-last {
+    width: 800px;
+    padding: 5px;
+    background-color: black;
+    margin-top: 150px;
+}
+
+.last-para {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.content-h2 {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+.content-h2:hover {
+    color: #427D9D;
+    text-decoration: underline;
+}
+
+.content-middle {
+    width: 800px;
+    padding: 5px;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.footer {
+    margin-top: 200px;
+    background-color: #87C4FF;
+    height: 200px;
+
+}
+
+.footer h2 {
+    color: white;
+    margin-left: 100px;
+    margin-top: 100px;
+    position: relative;
+    top: 90px;
+}
+
+.footer p {
+    color: #ffff;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.content-mail {
+    position: relative;
+    left: 800px;
+    bottom: 60px;
+}
+
+.content-net {
+    position: relative;
+    left: 800px;
+    bottom: 50px;
+    padding: 20px;
+}
+
+.grid {
+    display: flex;
+    align-items: center;
+}
+
+.foot-image img {
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.foot-image p {
+    margin-left: 50px;
+}
+
+.foot-link li {
+    list-style: none;
 }
