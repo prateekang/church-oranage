@@ -15,10 +15,14 @@ while(have_posts()):
 endwhile;
 
 ?>
-<?php function greet(){
-    echo "<h1> this is my first document</h1>";
+<?php
+$wpnew =array('post_type'=>'post',
+'post_type'=>'publish'
+);
+$newsquery = new Wp_Query($wpnew);
+while($newsquery->have_posts()){
+    $newsquery->the_post();
 }
-greet();
 ?>
 
     <?php get_footer(); ?>
