@@ -9,12 +9,13 @@
         while(have_posts()):
             the_post();
         the_date();
+        the_category();
         endwhile;
         ?>,
 </div>
     
     <div class="content-image">
-        <img src="<?php echo get_template_directory_uri()?>/Image/church.webp">
+        <?php the_post_thumbnail(); ?>
     </div>
     
 <div class="content-para">
