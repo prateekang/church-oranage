@@ -227,5 +227,31 @@ a:hover,
 .content-author{
     text-align: center;
     text-decoration: none;
-    color:black;
+}
+.content-user {
+    display: flex;
+}
+.user-name h2,
+.user-name p,
+.user-name a {
+    margin-top: 20px;
+    margin-left: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.user-name a:hover,
+.user-name h2:hover {
+    text-decoration: underline;
+    color: #427D9D;
+}
+
+.user-name i {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.content-excerpt p {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
 }
