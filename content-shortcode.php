@@ -1,5 +1,5 @@
 <?php function myshort_code(){
-    $message="<button>Sputznik</button>";
+    $message="<button>post comment</button>";
     return $message;
 }
 add_shortcode('sp-button','myshort_code');

@@ -308,3 +308,9 @@ margin-left: 200px;
 .nav-color h1{
     margin-left: 300px;
 }
+button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
