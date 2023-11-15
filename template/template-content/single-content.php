@@ -42,12 +42,22 @@
 </div>
 <hr class="content-line">
 <div clas="nav-color">
-<?php the_posts_pagination( array(
-'mid_size' => 2,
-'prev_text' => __( 'Previous Page', 'textdomain' ),
-'next_text' => __( 'Next Page', 'textdomain' ),
-) );?>
+    <h2>
+<?php previous_post_link();
+next_post_link();
+?></h2>
+<hr class="content-line">
 
+<?php add_shortcode( 'bartag', 'wpdocs_bartag_func' );
+function wpdocs_bartag_func( $atts ) {
+	$atts = shortcode_atts( array(
+		'foo' => 'no foo',
+		'baz' => 'default baz'
+	), $atts, 'bartag' );
+
+	return "foo = {$atts['foo']}";
+}
+?>
 </div>
 </div>
 </div>
