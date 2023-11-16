@@ -48,16 +48,7 @@ next_post_link();
 ?></h2>
 <hr class="content-line">
 
-<?php add_shortcode( 'bartag', 'wpdocs_bartag_func' );
-function wpdocs_bartag_func( $atts ) {
-	$atts = shortcode_atts( array(
-		'foo' => 'no foo',
-		'baz' => 'default baz'
-	), $atts, 'bartag' );
 
-	return "foo = {$atts['foo']}";
-}
-?>
 </div>
 </div>
 </div>
