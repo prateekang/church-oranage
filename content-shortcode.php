@@ -2,7 +2,7 @@
 function styled_link_shortcode($atts) {
     $atts = shortcode_atts(array(
 'style' => '<button type="text">CLick me </button>',
-    'text' => 'Click me',
+    'text' => 'Click me', 
     ),$atts);
     //return "hello" . ($atts['style']);
   return  $atts['style'] . " and " .$atts['text'];
